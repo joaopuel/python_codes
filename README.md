@@ -1,3 +1,3 @@
 # python_codes
 
-Some simple codes I did in Python
+Some simple codes I made in Python
