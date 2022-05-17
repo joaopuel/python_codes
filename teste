@@ -1,0 +1,9 @@
+mylist = []  # creating an empty list
+
+# appending values entered by user to list
+for i in range(5):
+    print("Enter value of n[", i, "]")
+    mylist.append(input());
+
+# printing final list
+print(mylist)

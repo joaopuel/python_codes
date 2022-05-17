@@ -1,0 +1,34 @@
+mylist = []
+
+for i in range(0, 20):
+    print "Number ", (i+1), ":"
+    mylist.append(input())
+
+posit = 0
+negat = 0
+odd = 0
+even = 0
+zero = mylist.count(0);
+
+for x in mylist:
+    if x >0:
+        posit += 1
+        if x%2==0:
+            even += 1
+        else:
+            odd += 1
+        continue;
+    if x < 0:
+        negat += 1
+        if x%2==0:
+            even += 1
+        else:
+            odd += 1
+        continue;
+
+print (mylist)
+print "Positives = ", posit
+print "Negatives = ", negat
+print "Odds = ", odd
+print "Even = ", even
+print "Zero = ", zero
