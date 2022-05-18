@@ -1,7 +1,0 @@
-mylist = []
-
-for i in range(0,10):
-    print("Insert number in n[", i, "]")
-    mylist.append(input())
-
-print(mylist)
