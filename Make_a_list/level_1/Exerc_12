@@ -1,0 +1,7 @@
+mylist = [58, 24, 13, 15, 63, 9, 8, 81, 1, 78]
+
+mylist2 = mylist[5:]
+del mylist[5:]
+
+print "My list 1: ", mylist
+print "My list 2: ", mylist2

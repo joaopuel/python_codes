@@ -1,0 +1,19 @@
+mylist = []
+
+print "List length: ",
+length =  input()
+
+for i in range(length):
+    print "Enter a number: ",
+    mylist.append(input())
+
+print "Original list: ", mylist
+
+index = mylist.index(max(mylist))
+highest = mylist.pop(index)
+
+second_highest = max(mylist)
+
+mylist[index:index] = [second_highest, highest-second_highest]
+
+print "New list: ", mylist
