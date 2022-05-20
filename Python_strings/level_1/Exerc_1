@@ -1,0 +1,9 @@
+string = ("Hello, Good, Morning\".World")
+
+print(string)
+
+string = string.split(",")
+
+print(string)
+print(string[1])
+print(string[2])

@@ -1,0 +1,7 @@
+print "Write a string: "
+string = input("\""),
+print "\""
+
+string = string.split(" ")
+
+print string[0][0] + ".", string[1][0] + ".", string[2] + "."

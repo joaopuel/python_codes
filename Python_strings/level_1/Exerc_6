@@ -1,0 +1,6 @@
+string = "Hello, World"
+
+print "First occurence of \'o\' is in the position", string.index("o")+1
+print "Last occurence of \'o\' is in the position", string.rindex("o")+1
+print "First occurence of \',\' is in the position", string.index(",")+1
+print "Last occurence of \',\' is in the position", string.rindex(",")+1

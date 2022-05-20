@@ -1,0 +1,7 @@
+word = "Banana"
+
+if "e" in word:
+    print "The letter \'e\' is in the word \"" + word + "\""
+
+else:
+    print "The letter \'e\' is not in the word \"" + word + "\""

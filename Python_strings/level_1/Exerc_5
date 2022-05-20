@@ -1,0 +1,8 @@
+sentence = "This is orange juice"
+word = "orange"
+
+if word in sentence:
+    print "The word \"" + word + "\" is in the sentence \"" + sentence + "\""
+
+else:
+    print "The word \"" + word + "\" is NOT in the sentence \"" + sentence + "\""
