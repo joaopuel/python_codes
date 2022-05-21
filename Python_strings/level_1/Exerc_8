@@ -1,0 +1,21 @@
+string = input("Write a string: ")
+
+string = string.lower();
+
+vowels = string.count("a") + string.count("e") + string.count("i") + string.count("o") + string.count("u")
+
+str_numbers = "0123456789"
+
+numbers = 0
+
+for i in range(len(str_numbers)):
+    numbers = numbers + string.count(str_numbers[i])
+
+spaces = string.count(" ")
+
+consonents = len(string)- vowels - numbers - spaces
+
+print "Vowels:", vowels
+print "Consonents:", consonents
+print "Numbers:", numbers
+print "Spaces:", spaces
